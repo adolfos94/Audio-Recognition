@@ -49,7 +49,7 @@ SampleDiff = lag1(I)
 timeDiff = SampleDiff/Fs
 
 % Desfazamos la señal para que coincidan
-S = [zeros(SampleDiff,1);S];
+S1 = S(SampleDiff
 
 playerObj = audioplayer(T1,Fs);
 play(playerObj,[SampleDiff,length(T1)]);
@@ -61,7 +61,7 @@ grid on
 title('T1')
 axis tight
 ax(2) = subplot(2,1,2);
-plot(S)
+plot(S1)
 grid on 
 title('S')
 axis tight
