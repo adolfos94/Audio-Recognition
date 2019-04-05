@@ -1,14 +1,13 @@
 # Audio Recognition #
 
-This project is created with MATLAB.
+Use this code with MATLAB.
 
 ### What is this repository for? ###
 
 Project for audio recognition using cross correlation. 
-It identifies a sound in a databse.
-Pretty similar to Shazam. 
+It identifies a sound in a database.
+Pretty similar to Shazam Application. 
 
-The purpose of the project is for a class taken in my masters grade.
 
-* Version 1
+* Version: 1.0.0
 * Author: Adolfo Solis
